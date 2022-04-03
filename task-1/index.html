@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blue"></div>
+    <form>
+        <div class="inputs">
+            <label for="status">სტატუსი *</label>
+            <select id="status">
+                <option>აქტიური</option>
+                <option>პასიური</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <label>სახელი *</label>
+            <input type="text" class="input" placeholder="სახელი">
+        </div>
+        <div class="inputs">
+            <label>გვარი *</label>
+            <input type="text" class="input" placeholder="გვარი">
+        </div>
+        <div class="inputs">
+            <label>დაბადების თარიღი *</label>
+            <input type="date" class="input" placeholder="dd-mm-yyyy">
+        </div>
+        <div class="inputs">
+            <label for="gender">სქესი *</label>
+            <div class="checkboxes">
+                <div>
+                    <input type="radio" value="მამრობითი" value="მამრობითი" id="male" name="gender">
+                    <label for="male">მამრობითი</label>
+                </div>
+                <div>
+                    <input type="radio" value="მდედრობითი" value="მდედრობითი" id="female" name="gender">
+                    <label for="female">მდედრობითი</label>
+                </div>
+            </div>
+        </div>
+        <div class="inputs">
+            <label>სახელი(ENG) *</label>
+            <input type="text" class="input" placeholder="Name">
+        </div>
+        <div class="inputs">
+            <label>გვარი(ENG) *</label>
+            <input type="text" class="input" placeholder="LastName">
+        </div>
+        <div class="inputs">
+            <label for="status">ოჯახური მდგომარეობა *</label>
+            <select id="status">
+                <option>დაოჯახებული</option>
+                <option>დასაოჯახებნელი</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
